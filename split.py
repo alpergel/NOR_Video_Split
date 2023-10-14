@@ -2,7 +2,7 @@ import os
 import subprocess
 import argparse
 
-def split_video(filename, segment_size_mb=100):
+def split_video(filename, segment_size_mb=50):
     # Calculate segment size in bytes
     segment_size_bytes = segment_size_mb * 1024 * 1024
 
